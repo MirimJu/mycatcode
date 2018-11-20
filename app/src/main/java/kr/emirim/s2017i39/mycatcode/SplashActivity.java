@@ -6,10 +6,12 @@ import android.util.Log;
 
 public class SplashActivity extends AppCompatActivity {
 
+    public static final String TAG = "스플래시액티비티";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        Log.d("스플래시액티비티","onCreate 실행");
+        Log.d(TAG,"onCreate 실행");
     }
 }
